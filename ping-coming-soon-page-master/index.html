@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
@@ -16,18 +18,41 @@
 </head>
 <body>
 
-  We are launching soon!
 
-  Subscribe and get notified
+  <div class="container">
+    <div>
+      <img src="images/logo.svg" alt="logo" />
+    </div>
+    <div class="main">
+          <h1> <span>We are launching</span> soon!</h1>
 
-  Notify Me
+        <p>Subscribe and get notified</p>
+        <div class="notify">
+          <div class="input">
+            <input type="email" required placeholder="Your email address"/>    
+          </div>
+         
+          <button>Notify Me</button>
+        </div>
+        
+    
 
-  &copy; Copyright Ping. All rights reserved.
+        <img src="images/illustration-dashboard.png" alt="illustration" />
+        <ul class="social-links">
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        &copy; Copyright Ping. All rights reserved.
+    </div>
+
+  </div>
+
 
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://davidzagi.netlify.app/">David Zagi</a>.
     </p>
   </footer>
 </body>
